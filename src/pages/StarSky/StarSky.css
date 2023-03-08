@@ -1,0 +1,82 @@
+#starSky {
+    /* display: none; */
+    width: 100vw;
+    min-width: 1200px;
+    /* height: 100vh; */
+    margin: -5.5vw auto;
+    margin-bottom: 0;
+    /* background: radial-gradient(200% 100% at bottom center, #f7f7b6, #e96f92); */
+    /* background: radial-gradient(150% 98% at top center, #1b2947 10%, #75517d 40%, #e96f92 65%, #f7feb6 95%, #f6f7f9 100%); */
+    background: linear-gradient(180deg, #1b2947 10%, #75517d 40%, #e96f92 65%, #f7f7b6 95%, #f6f7f9 100%);
+    /* background-attachment: fixed; */
+    overflow: hidden;
+    /* z-index: -2; */
+}
+
+@keyframes twinkle {
+    10% {
+        opacity: 0;
+        box-shadow: 0px 0px 8px #dddf60;
+    }
+
+    90% {
+        opacity: 1;
+        box-shadow: 0px 0px 2px #dddf60;
+    }
+}
+
+.stars {
+    position: relative;
+    margin-top: 5.5vw;
+}
+
+.star {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #f7f7b8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* 当元素背向观察者时不可见 */
+    /* backface-visibility: hidden; */
+    animation: twinkle 2.5s ease-in infinite;
+    box-shadow: 0px 0px 8px #dcdf2f;
+}
+
+
+
+
+
+/* 旋转星空*/
+/* @keyframes rotate {
+    0% {
+        transform: perspective(400px) rotateZ(20deg) rotateX(-40deg) rotateY(0);
+    }
+
+    100% {
+        transform: perspective(400px) rotateZ(20deg) rotateX(-40deg) rotateY(-360deg);
+    }
+}
+
+
+.stars {
+    transform: perspective(500px);
+    transform-style: preserve-3d;
+    position: absolute;
+    left: 50%;
+    perspective-origin: 50% 100%;
+    animation: rotate 90s infinite linear;
+    bottom: 0;
+}
+
+.star {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #f7f7b8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+} */

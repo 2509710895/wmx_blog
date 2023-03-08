@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  width: 100vw;
+  height: 5vw;
+  background-color: #1b2947;
+  margin-top: 5.5vw;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content {
+  max-width: 1200px;
+  text-align: center;
+}

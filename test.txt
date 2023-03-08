@@ -1,0 +1,37 @@
+dffaassadhaskdhakl
+sakjdaskdj阿打算SASAsdsd
+333
+444
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "esnext",
+        "jsx": "preserve",
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+        "baseUrl": "src",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outDir": "dist",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "jsxFactory": "React.createElement",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "strictNullChecks": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "src//*.ts",
+        "src//*.tsx"
+    ]
+}

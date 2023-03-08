@@ -1,0 +1,17 @@
+.main-content-box {
+    max-width: 1250px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.markdown-body {
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    padding: 50px;
+    /* background-color: pink; */
+    max-width: 1200px;
+    /* background-color: #afafaf; */
+    /* background-color: #fff; */
+}
